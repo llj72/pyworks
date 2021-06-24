@@ -13,6 +13,8 @@ for i in score:
 #평균
 avg = sum/count
 
-print("개수 : %d개" % count)
-print("합계 : %d개" % sum)
+#print("개수: %d개" % count)
+print("개수 : {}" .format(count))
+#print("합계 : %d개" % sum)
+print("합계 : {0}개".format(sum))
 print("평균 : %.1f" % avg)
